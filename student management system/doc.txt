@@ -1,0 +1,40 @@
+Student Management System
+=========================
+
+This Java program demonstrates object-oriented programming concepts, specifically inheritance, by managing student information.
+
+Class Hierarchy:
+- Person: Base class with name and age.
+- Student: Extends Person, adds roll number and marks.
+- GraduateStudent: Extends Student, adds specialization.
+
+Features:
+- Displays complete student information using inherited properties.
+- Demonstrates polymorphism with overridden display() methods.
+
+How to Run:
+1. Ensure you have Java installed (JDK 8 or later).
+2. Compile the classes: javac *.java
+3. Run the program: java Main
+
+Expected Output:
+Graduate Student Information:
+Name: Alice Johnson
+Age: 24
+Roll Number: 101
+Marks: 92.5
+Specialization: Artificial Intelligence
+
+Regular Student Information:
+Name: Bob Smith
+Age: 20
+Roll Number: 102
+Marks: 88.0
+
+Files:
+- Person.java: Base class
+- Student.java: Derived class
+- GraduateStudent.java: Further derived class
+- Main.java: Main class with demo
+
+This is a simple demonstration. For a full management system, additional features like data persistence or user input could be added.
